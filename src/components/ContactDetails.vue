@@ -1,9 +1,11 @@
 <template>
 	<header class="text-center">
 		<h1 class="text-4xl font-bold text-gray-900">Gustavo Peralta Vázquez</h1>
-		<p class="mt-1 text-lg text-gray-600">
-			{{ cv.title }}
-			<a id="language-link" class="cursor-pointer text-gray-400" @click="$emit('change-lang')">({{ locale.toUpperCase() }})</a>
+		<p class="mt-1 text-lg text-gray-600">{{ cv.title }}</p>
+		<p class="text-sm print:hidden">
+			<a id="language-link" href="#" class="text-blue-600 underline hover:text-blue-800" @click.prevent="$emit('change-lang')">{{ cv.switchLanguage }}</a>
+			<span class="mx-2 text-gray-400">·</span>
+			<a :href="cv.pdf.file" download class="text-blue-600 underline hover:text-blue-800">{{ cv.pdf.label }}</a>
 		</p>
 		<p class="mt-2 text-sm text-gray-700">
 			<a href="mailto:gussrw1@gmail.com">gussrw1@gmail.com</a>
@@ -22,7 +24,6 @@ import MetricText from "@/components/MetricText.vue";
 
 defineProps({
     cv: {type: Object, required: true},
-    locale: {type: String, required: true},
 });
 defineEmits(['change-lang']);
 </script>

@@ -1,6 +1,6 @@
 <template>
 	<main id="cv" class="mx-auto max-w-4xl bg-white px-10 py-8 text-sm leading-relaxed">
-		<contact-details :cv="cv" :locale="locale" @change-lang="changeLang" />
+		<contact-details :cv="cv" @change-lang="changeLang" />
 		<work-experience :cv="cv" class="mt-5" />
 		<other-projects :cv="cv" class="mt-5 print:mt-0 print:break-before-page" />
 		<skills-section :cv="cv" class="mt-5" />
@@ -18,7 +18,9 @@ import es from "@/locales/es.json";
 import {computed, ref} from "vue";
 import {useI18n} from "vue3-i18n";
 
-const locale = ref(localStorage.locale ?? 'en');
+// ?lang=es|en wins over the saved choice, so links and the PDF generator can pick a language
+const urlLang = new URLSearchParams(window.location.search).get('lang');
+const locale = ref(['en', 'es'].includes(urlLang) ? urlLang : (localStorage.locale ?? 'en'));
 const i18n = useI18n();
 const cv = computed(() => (locale.value === 'es' ? es : en));
 

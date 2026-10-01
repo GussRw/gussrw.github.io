@@ -1,5 +1,10 @@
 {
   "title": "AI Software Engineer",
+  "switchLanguage": "Ver versión en inglés",
+  "pdf": {
+    "label": "Descargar PDF",
+    "file": "Gustavo_Peralta_CV.pdf"
+  },
   "summary": "AI Software Engineer y Tech Lead con **más de 9 años** de trayectoria. Experto en construir arquitecturas web, desarrollar **sistemas multi-agente** y liderar operaciones **DevOps**, desde la automatización CI/CD hasta la gestión de infraestructura cloud.",
   "location": "Aguascalientes, México (disponible para remoto)",
   "sections": {

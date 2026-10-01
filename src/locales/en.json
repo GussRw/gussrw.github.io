@@ -1,5 +1,10 @@
 {
   "title": "AI Software Engineer",
+  "switchLanguage": "View Spanish version",
+  "pdf": {
+    "label": "Download PDF",
+    "file": "Gustavo_Peralta_Resume.pdf"
+  },
   "summary": "AI Software Engineer and Tech Lead with **9+ years** of experience. Expert in building web architectures, developing **multi-agent systems**, and leading **DevOps** operations, from CI/CD automation to cloud infrastructure management.",
   "location": "Aguascalientes, Mexico (open to remote)",
   "sections": {
