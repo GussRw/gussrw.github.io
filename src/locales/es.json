@@ -1,71 +1,133 @@
 {
-  "title": "Ingeniero de Software",
-  "personalStatement": {
-    "title": "Acerca de mí",
-    "line1": "Soy una persona muy disciplinada, responsable y honesta. Siempre busco aprender cosas nuevas.",
-    "line2": "En cuanto a mi carrera, me considero altamente competente en el campo de la programación.",
-    "line3": "Puedo adaptarme rápidamente a cualquier tecnología, lenguaje, framework o entorno de desarrollo.",
-    "line4": "He trabajado con una amplia variedad de tecnologías para desarrollar sitios web, aplicaciones móviles y de escritorio, videojuegos e integraciones de hardware."
-  },
-  "workExperience": {
-    "title": "Experiencia laboral",
-    "cceo": {
-      "cto": {
-        "position": "Director de Tecnología",
-        "responsibilities": "Revisión de código, estimación de tiempo de desarrollo, estabilidad en la implementación, automatización de procesos, estructura de proyectos, administración de servidores y búsqueda de nuevas tecnologías son algunas de las actividades que he realizado en el tiempo que he ocupado este cargo."
-      },
-      "developer": {
-        "position": "Desarrollador Full Stack",
-        "responsibilities": "Desarrollé plataformas web con el framework Laravel, utilizando PHP y Javascript como lenguajes principales. Estuve involucrado en el proceso de desarrollo desde la etapa de análisis y planificación hasta la implementación del producto generado."
-      }
-    },
-    "myshell": {
-      "ceo": {
-        "position": "CEO y Fundador",
-        "responsibilities": "Generación de nuevas herramientas y complementos que ayudan a los desarrolladores a tener una mejor experiencia al desarrollar sus aplicaciones, siempre manteniendo la filosofía de código abierto."
-      }
-    }
-  },
-  "portfolio": {
-    "title": "Portafolio",
-    "gussuntu": "Trabajé como administrador de servidores, configurando servidores web, DNS, firewalls, ACL, usuarios y permisos de SSH, lo que me permitió generar una nueva distribución personalizada de Ubuntu WSL con todas las características y requisitos que un desarrollador web necesita para trabajar en su día a día.",
-    "alv": "Paquete de NPM con más de 3,000 instalaciones al año que incluye un componente de Vue que ayuda a enviar datos de un formulario u objetos reactivos desde cualquier componente Vue, así como mostrar rápidamente errores de Laravel-FormRequest en el DOM, deshabilitar automáticamente el botón de envío, agregar un spinner de carga, enviar archivos, etc.",
-    "banIP": "Configuración de servidor Linux y script que analiza archivos del log y verifica el estado de spam con la API de AbuseIPDB; si una IP tiene reportes, se agrega automáticamente a las reglas del firewall para prevenir ataques.",
-    "tpv": "Aplicación desarrollada en C# para integrar la terminal de tarjetas de BBVA en un punto de venta, lo que permite generar ventas, devoluciones, cancelaciones, pagos con puntos y retiros de efectivo.",
-    "prefects": "Una plataforma para el personal de prefectura en el Instituto Tecnológico de Aguascalientes que proporciona monitoreo en tiempo real de la asistencia de los docentes, a través de una plataforma web desarrollada con Laravel y una aplicación móvil con desarrollo nativo en Android."
-  },
-  "education": {
-    "title": "Educación"
-  },
+  "title": "AI Software Engineer",
+  "summary": "AI Software Engineer y Tech Lead con **más de 9 años** de trayectoria. Experto en construir arquitecturas web, desarrollar **sistemas multi-agente** y liderar operaciones **DevOps**, desde la automatización CI/CD hasta la gestión de infraestructura cloud.",
+  "location": "Aguascalientes, México (disponible para remoto)",
   "sections": {
-    "contactDetails": "Detalles de contacto",
-    "skills": "Habilidades",
+    "experience": "Experiencia profesional",
+    "skills": "Habilidades técnicas",
+    "projects": "Proyectos",
+    "education": "Educación",
     "languages": "Idiomas",
-    "hobbies": "Pasatiempos e intereses",
-    "programmingLanguages": "Lenguajes de programación",
-    "databases": "Bases de datos",
-    "versionControl": "Control de versiones",
-    "serverAdmin": "Administración de servidores",
-    "otherTechnologies": "Otras tecnologías",
-    "mobileApps": "Aplicaciones móviles",
-    "desktopDevelopment": "Aplicaciones de escritorio",
-    "native": "Nativo",
-    "spanish": "Español",
-    "english": "Inglés"
+    "certifications": "Certificaciones"
   },
-  "hobbies": {
-    "billiards": "Billar",
-    "coffee": "Café",
-    "carMechanic": "Mecánica de Automóviles",
-    "guitar": "Guitarra",
-    "woodwork": "Carpintería",
-    "localGuide": "Local Guide"
-  },
-  "dates": {
-    "present": "Actual",
-    "may": "Mayo",
-    "jul": "Julio",
-    "aug": "Agosto",
-    "sep": "Septiembre"
-  }
+  "experience": [
+    {
+      "company": "Escal8",
+      "location": "",
+      "roles": [
+        {
+          "position": "AI Software Engineer",
+          "dates": "Ago 2024 – Sep 2026",
+          "bullets": [
+            "Aceleré la escritura de código y la resolución de problemas técnicos integrando **asistentes de IA** (Claude Code CLI, Google Antigravity) directamente en el flujo de trabajo.",
+            "Construí y mantuve la **arquitectura backend** para la infraestructura central y el ecosistema Moodle usando PHP, Python y JavaScript, optimizando el rendimiento y la **escalabilidad** del sistema en producción.",
+            "Desarrollé sistemas multi-agente y ejecuté la **migración completa** de la infraestructura de Inteligencia Artificial desde Google Cloud Platform hacia **AWS Bedrock**.",
+            "**Reduje los costos** de consumo (API) y la latencia de los modelos fundacionales limitando las ventanas de contexto, perfilando el modelo adecuado para cada tarea y refinando la ingeniería de prompts.",
+            "Automaticé los pases a producción mediante **pipelines de CI/CD** y administré la infraestructura cloud (AWS, Linux), estableciendo una **cultura DevOps** y prácticas de desarrollo más estrictas para evitar caídas del sistema."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "CCEO Software Development",
+      "location": "",
+      "roles": [
+        {
+          "position": "Chief Technology Officer (CTO)",
+          "dates": "Jul 2022 – Ago 2024",
+          "bullets": [
+            "Lideré la **estrategia tecnológica** de la empresa, definiendo la arquitectura base, evaluando integraciones de terceros y dirigiendo la adopción de nuevas tecnologías para múltiples proyectos simultáneos.",
+            "Estandaricé las prácticas de ingeniería del equipo instituyendo **revisiones de código** (Code Reviews), herramientas de análisis estático (ESLint) y metodologías ágiles de planificación, lo que aceleró la integración de nuevos desarrolladores y mejoró la **calidad del software**.",
+            "Implementé prácticas DevOps administrando la infraestructura en producción (servidores Linux, Firewalls, Datadog) y sistematicé los despliegues mediante pipelines de CI/CD (GitHub Actions), **eliminando horas de trabajo manual** y reduciendo drásticamente los errores en liberación."
+          ]
+        },
+        {
+          "position": "Full Stack Developer",
+          "dates": "Sep 2017 – Jul 2022",
+          "bullets": [
+            "Desarrollé y mantuve plataformas web de principio a fin, construyendo **backends robustos** con Laravel (PHP) y bases de datos relacionales (MySQL/PostgreSQL), y frontends interactivos con JavaScript y Vue.js.",
+            "**Optimicé el rendimiento general** de las aplicaciones en producción, refactorizando consultas a la base de datos y diseñando interfaces responsivas enfocadas en mejorar la experiencia del usuario final.",
+            "Aterricé los requerimientos de negocio en especificaciones técnicas claras, participando en el **ciclo de vida completo** del desarrollo para reducir el retrabajo y garantizar entregas a tiempo."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "MyShell Software Lab",
+      "location": "",
+      "roles": [
+        {
+          "position": "CEO & Founder",
+          "dates": "May 2018 – Presente",
+          "bullets": [
+            "Construí y mantengo un **ecosistema de herramientas** de código abierto (incluyendo TaskFlow y utilidades para Vue/Laravel) enfocado en mejorar la experiencia del desarrollador (DX).",
+            "Gestiono el ciclo de vida de los proyectos en GitHub, definiendo el roadmap técnico, revisando Pull Requests (PRs) y **resolviendo activamente los problemas** (issues) reportados por la comunidad.",
+            "Facilité la adopción de estas herramientas redactando **documentación técnica clara** y diseñando integraciones directas que ahorran horas de configuración a otros ingenieros, impulsado por mi compromiso con el software libre y colaborativo."
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Lenguajes",
+      "items": "JavaScript/TypeScript, Python, PHP, C#"
+    },
+    {
+      "category": "Inteligencia Artificial",
+      "items": "LangChain, RAG, Prompt Engineering, Vertex AI (Gemini API), AWS Bedrock"
+    },
+    {
+      "category": "Frontend",
+      "items": "React, Vue.js, Tailwind CSS"
+    },
+    {
+      "category": "Backend",
+      "items": "Laravel, FastAPI, Node.js, .NET"
+    },
+    {
+      "category": "Bases de Datos y Caché",
+      "items": "MongoDB, MySQL, Redis"
+    },
+    {
+      "category": "DevOps e Infraestructura",
+      "items": "AWS, Docker, GitHub Actions (CI/CD), Administración de Servidores Linux (Ubuntu/Debian)"
+    },
+    {
+      "category": "Móvil",
+      "items": "Flutter, Android (Nativo Java/Kotlin)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "TaskFlow",
+      "description": "Diseñé una plataforma ágil de gestión de producto (Next.js, TypeScript, MongoDB, Socket.io). Aceleré el ciclo de planificación integrando un **copiloto de Inteligencia Artificial** (Gemini/Bedrock) que traduce requerimientos en **tareas automáticas** dentro de interfaces dinámicas drag-and-drop."
+    },
+    {
+      "name": "Ajax Laravel Validator",
+      "description": "Desarrollé un paquete open-source en NPM para Vue.js (con **más de 3,000 instalaciones** anuales) que simplifica la interacción entre frontend y backend, integrando validación del lado del cliente, envío de objetos reactivos y manejo de errores de Laravel FormRequest directamente en la UI."
+    },
+    {
+      "name": "BBVA TPV",
+      "description": "Integré terminales de tarjetas BBVA en una aplicación de punto de venta desarrollada en C# y .NET, con soporte para ventas, devoluciones, cancelaciones, pagos con puntos y retiros de efectivo."
+    },
+    {
+      "name": "Prefectos",
+      "description": "Reemplacé el control manual de asistencia docente en el Instituto Tecnológico de Aguascalientes con una **plataforma web en tiempo real** escrita en Laravel y Vue.js y una aplicación desarrollada en Android nativo."
+    }
+  ],
+  "education": [
+    {
+      "school": "Instituto Tecnológico de Aguascalientes",
+      "dates": "Ene 2026 – Presente",
+      "degree": "Maestría en Inteligencia Artificial"
+    },
+    {
+      "school": "Instituto Tecnológico de Aguascalientes",
+      "dates": "Ago 2014 – Jul 2019",
+      "degree": "Ingeniería en Tecnologías de la Información y Comunicaciones"
+    }
+  ],
+  "languages": "Español (nativo), Inglés (competencia profesional)",
+  "certifications": "Google Data Analytics (2023), AI Engineering – Henry (2026)"
 }

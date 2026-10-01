@@ -1,47 +1,29 @@
 <template>
-	<div>
-		<h2 class="text-2xl pb-2 font-bold  text-gray-800">{{ $t('workExperience.title') }}</h2>
-		<div class="pl-4">
-			<div>
-				<div class="flex items-center">
-					<img style="height: 1.3rem" class="mr-2 mt-1 opacity-75" src="https://avatars.githubusercontent.com/u/14634640?s=200&v=4" alt="" />
-					<h3 class="text-xl">CCEO Software Development</h3>
-				</div>
-				<ol class="relative border-l border-gray-200 dark:border-gray-700">
-					<li class="ml-4 mb-3">
-						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-						<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{ $t('dates.jul') }} 2022 - {{ $t('dates.present') }}</time>
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">{{ $t('workExperience.cceo.cto.position') }}</h3>
-						<p class="text-base font-normal text-gray-500 dark:text-gray-400">
-							{{ $t('workExperience.cceo.cto.responsibilities') }}
-						</p>
-					</li>
-					<li class="ml-4">
-						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-						<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{ $t('dates.sep') }} 2017 - {{ $t('dates.jul') }} 2022</time>
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">{{ $t('workExperience.cceo.developer.position') }}</h3>
-						<p class="text-base font-normal text-gray-500 dark:text-gray-400">
-							{{ $t('workExperience.cceo.developer.responsibilities') }}
-						</p>
-					</li>
-				</ol>
+	<section>
+		<h2 class="section-title">{{ cv.sections.experience }}</h2>
+		<div v-for="company in cv.experience" :key="company.company" class="mt-3">
+			<div class="flex justify-between">
+				<h3 class="font-bold text-gray-900">{{ company.company }}</h3>
+				<span v-if="company.location" class="text-gray-600">{{ company.location }}</span>
 			</div>
-			<div class="mt-5">
-				<div class="flex items-center">
-					<img style="height: 1.75rem" class="mr-2 mt-1 opacity-75" src="https://avatars.githubusercontent.com/u/40610817?s=200&v=4" alt="" />
-					<h3 class="text-xl">MyShell Software Lab</h3>
+			<div v-for="role in company.roles" :key="role.position" class="mt-1">
+				<div class="flex justify-between">
+					<h4 class="font-semibold italic text-gray-800">{{ role.position }}</h4>
+					<span class="text-gray-600">{{ role.dates }}</span>
 				</div>
-				<ol class="relative border-l border-gray-200 dark:border-gray-700">
-					<li class="ml-4">
-						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-						<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{ $t('dates.may') }} 2018 - {{ $t('dates.present') }}</time>
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">{{ $t('workExperience.myshell.ceo.position') }}</h3>
-						<p class="text-base font-normal text-gray-500 dark:text-gray-400">
-							{{ $t('workExperience.myshell.ceo.responsibilities') }}
-						</p>
+				<ul class="list-disc pl-5 mt-1 space-y-0.5 text-gray-800">
+					<li v-for="bullet in role.bullets" :key="bullet">
+						<metric-text :text="bullet" />
 					</li>
-				</ol>
+				</ul>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
+<script setup>
+import MetricText from "@/components/MetricText.vue";
+
+defineProps({
+    cv: {type: Object, required: true},
+});
+</script>

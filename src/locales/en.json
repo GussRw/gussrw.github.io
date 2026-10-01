@@ -1,71 +1,133 @@
 {
-  "title": "Software Engineer",
-  "personalStatement": {
-    "title": "About me",
-    "line1": "I am a very disciplined, responsible, and honest person. I always search for new things to learn.",
-    "line2": "As for my career, I consider myself highly proficient in the programming field.",
-    "line3": "I can adapt quickly to any technology, language, framework, or developer environment.",
-    "line4": "I have worked with a wide variety of technologies to develop websites, mobile and desktop apps, video games, and hardware integrations."
-  },
-  "workExperience": {
-    "title": "Work experience",
-    "cceo": {
-      "cto": {
-        "position": "Chief Technology Officer",
-        "responsibilities": "Code review, development time estimation, deploy stability, process automation, project structure, server admin, search for new technologies and integrations are some of the activities that I have carried out in the time that I have been occupying this position."
-      },
-      "developer": {
-        "position": "Full Stack Developer",
-        "responsibilities": "I developed web platforms with Laravel Framework, using PHP and Javascript as main languages. I was involved in the development process from the analysis and planning stage to the deployment of the final products."
-      }
-    },
-    "myshell": {
-      "ceo": {
-        "position": "CEO & Founder",
-        "responsibilities": "Generation of new tools and plugins that help developers get a better and easier experience while developing their applications, always maintaining the open source philosophy."
-      }
-    }
-  },
-  "portfolio": {
-    "title": "Portfolio",
-    "gussuntu": "I have worked as a server admin, configuring web servers, DNS, firewalls, ACLs, SSH users and permissions, which allowed me to generate a new customized WSL Ubuntu distribution, with all features and requirements that an web developer needs to work on a day-to-day basis",
-    "alv": "NPM package with 3k+ installs per year with a Vue component that helps submit form data or reactive objects from any Vue component, as well as display Laravel-FormRequest errors in the DOM quickly and easily, automatic disable submit button, append loading spinner, send files, etc.",
-    "banIP": "Linux server setup and script that analyzes log files and check spam status with AbuseIPDB API, if IP has reports it is automatically is added to Firewall rules to prevent more attacks from it.",
-    "tpv": "Application developed in C# to integrate the BBVA card terminal at the point of sale, allowing to generate sales, returns, cancellations, payments with reward points and cash withdrawals.",
-    "prefects": "A platform for prefecture staff within the Instituto Tecnológico de Aguascalientes that provides realtime monitoring of the assistance teachers have, through a web platform developed with Laravel and a mobile application with android native development."
-  },
-  "education": {
-    "title": "Education"
-  },
+  "title": "AI Software Engineer",
+  "summary": "AI Software Engineer and Tech Lead with **9+ years** of experience. Expert in building web architectures, developing **multi-agent systems**, and leading **DevOps** operations, from CI/CD automation to cloud infrastructure management.",
+  "location": "Aguascalientes, Mexico (open to remote)",
   "sections": {
-    "contactDetails": "Contact details",
-    "skills": "Skills",
+    "experience": "Professional Experience",
+    "skills": "Technical Skills",
+    "projects": "Projects",
+    "education": "Education",
     "languages": "Languages",
-    "hobbies": "Hobbies & Interests",
-    "programmingLanguages": "Programming languages",
-    "databases": "Databases",
-    "versionControl": "Version control",
-    "serverAdmin": "Server admin",
-    "otherTechnologies": "Other technologies",
-    "mobileApps": "Mobile apps",
-    "desktopDevelopment": "Desktop development",
-    "native": "Native",
-    "spanish": "Spanish",
-    "english": "English"
+    "certifications": "Certifications"
   },
-  "hobbies": {
-    "billiards": "Billiards",
-    "coffee": "Coffee",
-    "carMechanic": "Car Mechanic",
-    "guitar": "Guitar",
-    "woodwork": "Woodwork",
-    "localGuide": "Local Guide"
-  },
-  "dates": {
-    "present": "Present",
-    "may": "May",
-    "jul": "July",
-    "aug": "August",
-    "sep": "September"
-  }
+  "experience": [
+    {
+      "company": "Escal8",
+      "location": "",
+      "roles": [
+        {
+          "position": "AI Software Engineer",
+          "dates": "Aug 2024 – Sep 2026",
+          "bullets": [
+            "Accelerated coding and technical problem-solving by integrating **AI assistants** (Claude Code CLI, Google Antigravity) directly into the development workflow.",
+            "Built and maintained the **backend architecture** for core infrastructure and the Moodle ecosystem using PHP, Python, and JavaScript, optimizing system performance and **scalability** in production.",
+            "Developed multi-agent systems and carried out the **full migration** of AI infrastructure from Google Cloud Platform to **AWS Bedrock**.",
+            "**Reduced API consumption costs** and foundation-model latency by limiting context windows, profiling the right model for each task, and refining prompt engineering.",
+            "Automated production releases through **CI/CD pipelines** and managed cloud infrastructure (AWS, Linux), establishing a **DevOps culture** and stricter development practices to prevent system outages."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "CCEO Software Development",
+      "location": "",
+      "roles": [
+        {
+          "position": "Chief Technology Officer (CTO)",
+          "dates": "Jul 2022 – Aug 2024",
+          "bullets": [
+            "Led the company's **technology strategy**, defining the core architecture, evaluating third-party integrations, and driving the adoption of new technologies across multiple concurrent projects.",
+            "Standardized the team's engineering practices by instituting **code reviews**, static analysis tooling (ESLint), and agile planning methodologies, which sped up onboarding of new developers and improved **software quality**.",
+            "Implemented DevOps practices by managing production infrastructure (Linux servers, firewalls, Datadog) and systematized deployments through CI/CD pipelines (GitHub Actions), **eliminating hours of manual work** and drastically reducing release errors."
+          ]
+        },
+        {
+          "position": "Full Stack Developer",
+          "dates": "Sep 2017 – Jul 2022",
+          "bullets": [
+            "Built and maintained end-to-end web platforms, developing **robust back ends** with Laravel (PHP) and relational databases (MySQL/PostgreSQL), and interactive front ends with JavaScript and Vue.js.",
+            "**Optimized overall performance** of production applications by refactoring database queries and designing responsive interfaces focused on improving the end-user experience.",
+            "Translated business requirements into clear technical specifications, taking part in the **full development lifecycle** to reduce rework and ensure on-time delivery."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "MyShell Software Lab",
+      "location": "",
+      "roles": [
+        {
+          "position": "CEO & Founder",
+          "dates": "May 2018 – Present",
+          "bullets": [
+            "Built and maintain an **ecosystem of open-source tools** (including TaskFlow and Vue/Laravel utilities) focused on improving developer experience (DX).",
+            "Manage the project lifecycle on GitHub, defining the technical roadmap, reviewing pull requests (PRs), and **actively resolving issues** reported by the community.",
+            "Facilitated adoption of these tools by writing **clear technical documentation** and designing direct integrations that save other engineers hours of setup, motivated by a commitment to free and collaborative software."
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": "JavaScript/TypeScript, Python, PHP, C#"
+    },
+    {
+      "category": "Artificial Intelligence",
+      "items": "LangChain, RAG, Prompt Engineering, Vertex AI (Gemini API), AWS Bedrock"
+    },
+    {
+      "category": "Frontend",
+      "items": "React, Vue.js, Tailwind CSS"
+    },
+    {
+      "category": "Backend",
+      "items": "Laravel, FastAPI, Node.js, .NET"
+    },
+    {
+      "category": "Databases & Caching",
+      "items": "MongoDB, MySQL, Redis"
+    },
+    {
+      "category": "DevOps & Infrastructure",
+      "items": "AWS, Docker, GitHub Actions (CI/CD), Linux Server Administration (Ubuntu/Debian)"
+    },
+    {
+      "category": "Mobile",
+      "items": "Flutter, Android (Native Java/Kotlin)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "TaskFlow",
+      "description": "Designed an agile product management platform (Next.js, TypeScript, MongoDB, Socket.io). Accelerated the planning cycle by integrating an **AI copilot** (Gemini/Bedrock) that turns requirements into **automated tasks** within dynamic drag-and-drop interfaces."
+    },
+    {
+      "name": "Ajax Laravel Validator",
+      "description": "Built an open-source npm package for Vue.js (**3,000+ annual installs**) that simplifies frontend–backend interaction, integrating client-side validation, reactive object submission, and Laravel FormRequest error handling directly in the UI."
+    },
+    {
+      "name": "BBVA TPV",
+      "description": "Integrated BBVA card terminals into a point-of-sale application built in C# and .NET, supporting sales, refunds, cancellations, reward-point payments, and cash withdrawals."
+    },
+    {
+      "name": "Prefectos",
+      "description": "Replaced manual teacher-attendance tracking at Instituto Tecnológico de Aguascalientes with a **real-time web platform** built with Laravel and Vue.js and a native Android app."
+    }
+  ],
+  "education": [
+    {
+      "school": "Instituto Tecnológico de Aguascalientes",
+      "dates": "Jan 2026 – Present",
+      "degree": "M.S. in Artificial Intelligence"
+    },
+    {
+      "school": "Instituto Tecnológico de Aguascalientes",
+      "dates": "Aug 2014 – Jul 2019",
+      "degree": "B.S. in Information and Communication Technologies Engineering"
+    }
+  ],
+  "languages": "Spanish (native), English (professional working proficiency)",
+  "certifications": "Google Data Analytics (2023), AI Engineering – Henry (2026)"
 }
