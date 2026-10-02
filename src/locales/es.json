@@ -1,10 +1,53 @@
 {
   "title": "AI Software Engineer",
+  "siteUrl": "https://cv.guss.uk/es",
   "switchLanguage": "Ver versión en inglés",
-  "switchPath": "/en",
   "pdf": {
     "label": "Descargar PDF",
     "file": "Gustavo_Peralta_CV.pdf"
+  },
+  "funny": {
+    "switchToFunny": "Ver versión divertida",
+    "switchToSerious": "Volver a la versión seria",
+    "pressStart": "PRESIONA START",
+    "startHint": "Haz clic o presiona cualquier tecla",
+    "player": "JUGADOR 1",
+    "class": "Clase",
+    "level": "NIV 9+",
+    "stats": [
+      {
+        "label": "Café",
+        "value": 97
+      },
+      {
+        "label": "Bugs resueltos",
+        "value": 88
+      },
+      {
+        "label": "Prompt-fu",
+        "value": 92
+      },
+      {
+        "label": "Juntas sobrevividas",
+        "value": 64
+      }
+    ],
+    "game": {
+      "title": "Aplasta Bugs",
+      "hint": "¡Aplasta los bugs! Se escaparon a producción.",
+      "score": "Bugs aplastados",
+      "win": "Logro desbloqueado: ¡A producción!"
+    },
+    "questLog": "Bitácora de misiones",
+    "levelLabel": "Nivel",
+    "inventory": "Inventario",
+    "achievements": "Logros desbloqueados",
+    "achievementHint": "Haz clic en un trofeo",
+    "training": "Zona de entrenamiento",
+    "badges": "Insignias",
+    "dialogue": "Opciones de diálogo",
+    "ending": "¿GAME OVER? Todavía no. Recluta a este jugador:",
+    "continue": "¿CONTINUAR?"
   },
   "summary": "AI Software Engineer y Tech Lead con **más de 9 años** de experiencia. Especializado en el desarrollo de **sistemas multi-agente**, construcción de arquitecturas web escalables y configuración de **infraestructura cloud** e integraciones CI/CD.",
   "location": "Aguascalientes, México (disponible para remoto)",

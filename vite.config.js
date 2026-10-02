@@ -4,7 +4,7 @@ import path from 'path'
 import fs from 'fs'
 import eslintPlugin from "vite-plugin-eslint";
 
-// GitHub Pages only serves files that exist, so give /en and /es their own copy of the page
+// GitHub Pages only serves files that exist, so give each route its own copy of the page
 const languageRoutes = () => {
     let outDir;
     return {
@@ -14,9 +14,9 @@ const languageRoutes = () => {
             outDir = path.resolve(config.root, config.build.outDir);
         },
         closeBundle() {
-            for (const lang of ['en', 'es']) {
-                fs.mkdirSync(path.join(outDir, lang), {recursive: true});
-                fs.copyFileSync(path.join(outDir, 'index.html'), path.join(outDir, lang, 'index.html'));
+            for (const route of ['en', 'es', 'en/funny', 'es/funny']) {
+                fs.mkdirSync(path.join(outDir, route), {recursive: true});
+                fs.copyFileSync(path.join(outDir, 'index.html'), path.join(outDir, route, 'index.html'));
             }
         },
     };

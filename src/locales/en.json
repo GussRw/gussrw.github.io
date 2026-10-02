@@ -1,10 +1,53 @@
 {
   "title": "AI Software Engineer",
+  "siteUrl": "https://cv.guss.uk",
   "switchLanguage": "View spanish version",
-  "switchPath": "/es",
   "pdf": {
     "label": "Download PDF",
     "file": "Gustavo_Peralta_Resume.pdf"
+  },
+  "funny": {
+    "switchToFunny": "Switch to Funny Version",
+    "switchToSerious": "Back to Serious Version",
+    "pressStart": "PRESS START",
+    "startHint": "Click or press any key",
+    "player": "PLAYER 1",
+    "class": "Class",
+    "level": "LVL 9+",
+    "stats": [
+      {
+        "label": "Coffee",
+        "value": 97
+      },
+      {
+        "label": "Bugs fixed",
+        "value": 88
+      },
+      {
+        "label": "Prompt-fu",
+        "value": 92
+      },
+      {
+        "label": "Meetings survived",
+        "value": 64
+      }
+    ],
+    "game": {
+      "title": "Bug Smasher",
+      "hint": "Squash the bugs! They escaped to production.",
+      "score": "Bugs squashed",
+      "win": "Achievement unlocked: Ship it!"
+    },
+    "questLog": "Quest Log",
+    "levelLabel": "Level",
+    "inventory": "Inventory",
+    "achievements": "Achievements Unlocked",
+    "achievementHint": "Click a trophy",
+    "training": "Training Grounds",
+    "badges": "Badges",
+    "dialogue": "Dialogue Options",
+    "ending": "GAME OVER? Not yet. Recruit this player:",
+    "continue": "CONTINUE?"
   },
   "summary": "AI Software Engineer and Tech Lead with **9+ years** of experience. Specialized in developing **multi-agent systems**, building scalable web architectures, and configuring **cloud infrastructure** and CI/CD integrations.",
   "location": "Aguascalientes, México (open to remote)",
