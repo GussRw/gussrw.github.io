@@ -25,7 +25,7 @@ try {
             '--no-pdf-header-footer',
             '--virtual-time-budget=5000',
             `--print-to-pdf=${target}`,
-            `${url}?lang=${lang}`,
+            new URL(lang, url).href,
         ], {timeout: 60000});
         // The site was built before the PDFs existed, so also drop them into the build output
         copyFileSync(target, `${outDir}/${pdf.file}`);

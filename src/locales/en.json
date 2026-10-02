@@ -1,19 +1,20 @@
 {
   "title": "AI Software Engineer",
   "switchLanguage": "View spanish version",
+  "switchPath": "/es",
   "pdf": {
     "label": "Download PDF",
     "file": "Gustavo_Peralta_Resume.pdf"
   },
-  "summary": "AI Software Engineer and Tech Lead with **9+ years** of experience. Expert in building web architectures, developing **multi-agent systems**, and leading **DevOps** operations, from CI/CD automation to cloud infrastructure management.",
+  "summary": "AI Software Engineer and Tech Lead with **9+ years** of experience. Specialized in developing **multi-agent systems**, building scalable web architectures, and configuring **cloud infrastructure** and CI/CD integrations.",
   "location": "Aguascalientes, México (open to remote)",
   "sections": {
     "experience": "Professional Experience",
     "skills": "Technical Skills",
     "projects": "Projects",
-    "education": "Education",
+    "education": "Education & Certifications",
     "languages": "Languages",
-    "certifications": "Certifications"
+    "certifications": "Key Certifications"
   },
   "experience": [
     {
@@ -24,11 +25,12 @@
           "position": "AI Software Engineer",
           "dates": "Aug 2024 – Sep 2026",
           "bullets": [
-            "Accelerated coding and technical problem-solving by integrating **AI assistants** (Claude Code CLI, Google Antigravity) directly into the development workflow.",
-            "Built and maintained the **backend architecture** for core infrastructure and the Moodle ecosystem using PHP, Python, and JavaScript, optimizing system performance and **scalability** in production.",
-            "Developed multi-agent systems and carried out the **full migration** of AI infrastructure from Google Cloud Platform to **AWS Bedrock**.",
-            "**Reduced API consumption costs** and foundation-model latency by limiting context windows, profiling the right model for each task, and refining prompt engineering.",
-            "Automated production releases through **CI/CD pipelines** and managed cloud infrastructure (AWS, Linux), establishing a **DevOps culture** and stricter development practices to prevent system outages."
+            "Developed **multi-agent systems** connecting foundation models (Google Gemini, Anthropic Claude) through the **AWS Bedrock and Vertex AI** platforms.",
+            "Built **MCP servers** (Model Context Protocol) from scratch to securely connect AI agents to databases and external APIs, giving them **real-time context**.",
+            "**Optimized API consumption** and reduced latency by tuning context windows, selecting the ideal model for each process, and applying **prompt engineering** techniques.",
+            "**Scaled the backend architecture** (PHP, Python) and the Moodle environment to handle the load of new AI tools in production without affecting performance.",
+            "Integrated **AI assistants** (Claude Code CLI, Google Antigravity) into the team's workflow to **accelerate development** and technical incident resolution.",
+            "Configured **CI/CD pipelines** to automate production releases and managed servers on AWS and Linux, ensuring **system stability**."
           ]
         }
       ]
@@ -41,18 +43,18 @@
           "position": "Chief Technology Officer (CTO)",
           "dates": "Jul 2022 – Aug 2024",
           "bullets": [
-            "Led the company's **technology strategy**, defining the core architecture, evaluating third-party integrations, and driving the adoption of new technologies across multiple concurrent projects.",
-            "Standardized the team's engineering practices by instituting **code reviews**, static analysis tooling (ESLint), and agile planning methodologies, which sped up onboarding of new developers and improved **software quality**.",
-            "Implemented DevOps practices by managing production infrastructure (Linux servers, firewalls, Datadog) and systematized deployments through CI/CD pipelines (GitHub Actions), **eliminating hours of manual work** and drastically reducing release errors."
+            "Defined the **technical architecture** and technology strategy, evaluating third-party APIs and guiding the team in adopting new tools across several parallel projects.",
+            "Improved code quality and eased onboarding of new developers by implementing **code reviews**, static analysis (ESLint), and agile workflows.",
+            "Managed **production infrastructure** on Linux servers (firewalls, Datadog) and automated deployments with **GitHub Actions**, eliminating manual work and reducing release errors."
           ]
         },
         {
           "position": "Full Stack Developer",
           "dates": "Sep 2017 – Jul 2022",
           "bullets": [
-            "Built and maintained end-to-end web platforms, developing **robust back ends** with Laravel (PHP) and relational databases (MySQL/PostgreSQL), and interactive front ends with JavaScript and Vue.js.",
-            "**Optimized overall performance** of production applications by refactoring database queries and designing responsive interfaces focused on improving the end-user experience.",
-            "Translated business requirements into clear technical specifications, taking part in the **full development lifecycle** to reduce rework and ensure on-time delivery."
+            "Built **full web applications** using Laravel and relational databases (MySQL/PostgreSQL) on the backend, along with dynamic JavaScript and Vue.js interfaces.",
+            "**Improved application speed** by refactoring database queries and redesigning the interface for a better user experience.",
+            "Translated business requirements into technical specifications, following each project from kickoff to **deployment** to ensure on-time delivery."
           ]
         }
       ]
@@ -65,9 +67,9 @@
           "position": "CEO & Founder",
           "dates": "May 2018 – Present",
           "bullets": [
-            "Built and maintain an **ecosystem of open-source tools** (including TaskFlow and Vue/Laravel utilities) focused on improving developer experience (DX).",
-            "Manage the project lifecycle on GitHub, defining the technical roadmap, reviewing pull requests (PRs), and **actively resolving issues** reported by the community.",
-            "Facilitated adoption of these tools by writing **clear technical documentation** and designing direct integrations that save other engineers hours of setup, motivated by a commitment to free and collaborative software."
+            "Created and maintain an **ecosystem of open-source tools** (including TaskFlow and Vue/Laravel utilities) focused on streamlining the development cycle.",
+            "Lead **end-to-end management on GitHub**: defining next technical steps, reviewing pull requests, and resolving issues reported by the community.",
+            "Improved the **developer experience (DX)** by building ready-to-use modules and test environments that eliminate hours of manual work for other developers."
           ]
         }
       ]
@@ -80,7 +82,7 @@
     },
     {
       "category": "Artificial Intelligence",
-      "items": "LangChain, RAG, Prompt Engineering, Vertex AI (Gemini API), AWS Bedrock"
+      "items": "LangChain, MCP (Model Context Protocol), Prompt Engineering, Vertex AI (Gemini API), AWS Bedrock, RAG"
     },
     {
       "category": "Frontend",
@@ -96,7 +98,7 @@
     },
     {
       "category": "DevOps & Infrastructure",
-      "items": "AWS, Docker, GitHub Actions (CI/CD), Linux Server Administration (Ubuntu/Debian)"
+      "items": "Docker, AWS, GitHub Actions (CI/CD), Linux Servers (Ubuntu/Debian)"
     },
     {
       "category": "Mobile",
@@ -106,11 +108,11 @@
   "projects": [
     {
       "name": "TaskFlow",
-      "description": "Designed an agile product management platform (Next.js, TypeScript, MongoDB, Socket.io). Accelerated the planning cycle by integrating an **AI copilot** (Gemini/Bedrock) that turns requirements into **automated tasks** within dynamic drag-and-drop interfaces."
+      "description": "Built a collaborative product management platform (Next.js, TypeScript, MongoDB, Socket.io). To speed up planning, integrated an **AI copilot** (Gemini/Bedrock) that takes requirements and generates **automated tasks** on a drag-and-drop board."
     },
     {
       "name": "Ajax Laravel Validator",
-      "description": "Built an open-source npm package for Vue.js (**3,000+ annual installs**) that simplifies frontend–backend interaction, integrating client-side validation, reactive object submission, and Laravel FormRequest error handling directly in the UI."
+      "description": "Published an open-source npm package for Vue.js (**3,000+ annual downloads**) that connects client-side validation with the backend, processing Laravel FormRequest errors directly in the UI."
     },
     {
       "name": "BBVA TPV",
@@ -118,7 +120,7 @@
     },
     {
       "name": "Prefectos",
-      "description": "Replaced manual teacher-attendance tracking at Instituto Tecnológico de Aguascalientes with a **real-time web platform** built with Laravel and Vue.js and a native Android app."
+      "description": "Replaced manual teacher-attendance tracking at Instituto Tecnológico de Aguascalientes with a **real-time web platform** built with Laravel and Vue.js, linked to a **native Android** app."
     }
   ],
   "education": [
@@ -133,6 +135,9 @@
       "degree": "B.S. in Information and Communication Technologies Engineering"
     }
   ],
-  "languages": "Spanish (native), English (professional working proficiency)",
-  "certifications": "Google Data Analytics (2023), AI Engineering – Henry (2026)"
+  "languages": "Spanish (Native), English (B2)",
+  "certifications": [
+    "AI Engineering – Henry (2026)",
+    "Google Data Analytics (2023)"
+  ]
 }

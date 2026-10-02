@@ -1,19 +1,20 @@
 {
   "title": "AI Software Engineer",
   "switchLanguage": "Ver versión en inglés",
+  "switchPath": "/en",
   "pdf": {
     "label": "Descargar PDF",
     "file": "Gustavo_Peralta_CV.pdf"
   },
-  "summary": "AI Software Engineer y Tech Lead con **más de 9 años** de trayectoria. Experto en construir arquitecturas web, desarrollar **sistemas multi-agente** y liderar operaciones **DevOps**, desde la automatización CI/CD hasta la gestión de infraestructura cloud.",
+  "summary": "AI Software Engineer y Tech Lead con **más de 9 años** de experiencia. Especializado en el desarrollo de **sistemas multi-agente**, construcción de arquitecturas web escalables y configuración de **infraestructura cloud** e integraciones CI/CD.",
   "location": "Aguascalientes, México (disponible para remoto)",
   "sections": {
     "experience": "Experiencia profesional",
     "skills": "Habilidades técnicas",
     "projects": "Proyectos",
-    "education": "Educación",
+    "education": "Educación y Certificaciones",
     "languages": "Idiomas",
-    "certifications": "Certificaciones"
+    "certifications": "Certificaciones clave"
   },
   "experience": [
     {
@@ -24,11 +25,12 @@
           "position": "AI Software Engineer",
           "dates": "Ago 2024 – Sep 2026",
           "bullets": [
-            "Aceleré la escritura de código y la resolución de problemas técnicos integrando **asistentes de IA** (Claude Code CLI, Google Antigravity) directamente en el flujo de trabajo.",
-            "Construí y mantuve la **arquitectura backend** para la infraestructura central y el ecosistema Moodle usando PHP, Python y JavaScript, optimizando el rendimiento y la **escalabilidad** del sistema en producción.",
-            "Desarrollé sistemas multi-agente y ejecuté la **migración completa** de la infraestructura de Inteligencia Artificial desde Google Cloud Platform hacia **AWS Bedrock**.",
-            "**Reduje los costos** de consumo (API) y la latencia de los modelos fundacionales limitando las ventanas de contexto, perfilando el modelo adecuado para cada tarea y refinando la ingeniería de prompts.",
-            "Automaticé los pases a producción mediante **pipelines de CI/CD** y administré la infraestructura cloud (AWS, Linux), estableciendo una **cultura DevOps** y prácticas de desarrollo más estrictas para evitar caídas del sistema."
+            "Desarrollé **sistemas multi-agente** conectando modelos fundacionales (Google Gemini, Anthropic Claude) mediante las plataformas de **AWS Bedrock y Vertex AI**.",
+            "Construí **servidores MCP** (Model Context Protocol) desde cero para conectar de forma segura a los agentes de IA con bases de datos y APIs externas, dándoles **contexto en tiempo real**.",
+            "**Optimicé el consumo de APIs** y reduje la latencia ajustando las ventanas de contexto, seleccionando el modelo ideal para cada proceso y aplicando técnicas de **prompt engineering**.",
+            "**Escalé la arquitectura backend** (PHP, Python) y el entorno de Moodle para que soportaran la carga de las nuevas herramientas de Inteligencia Artificial en producción sin afectar el rendimiento.",
+            "Integré **asistentes de IA** (Claude Code CLI, Google Antigravity) en el flujo de trabajo del equipo para **acelerar el desarrollo** y la resolución de incidentes técnicos.",
+            "Configuré **pipelines de CI/CD** para automatizar los pases a producción y administré servidores en AWS y Linux, garantizando la **estabilidad del sistema**."
           ]
         }
       ]
@@ -41,18 +43,18 @@
           "position": "Chief Technology Officer (CTO)",
           "dates": "Jul 2022 – Ago 2024",
           "bullets": [
-            "Lideré la **estrategia tecnológica** de la empresa, definiendo la arquitectura base, evaluando integraciones de terceros y dirigiendo la adopción de nuevas tecnologías para múltiples proyectos simultáneos.",
-            "Estandaricé las prácticas de ingeniería del equipo instituyendo **revisiones de código** (Code Reviews), herramientas de análisis estático (ESLint) y metodologías ágiles de planificación, lo que aceleró la integración de nuevos desarrolladores y mejoró la **calidad del software**.",
-            "Implementé prácticas DevOps administrando la infraestructura en producción (servidores Linux, Firewalls, Datadog) y sistematicé los despliegues mediante pipelines de CI/CD (GitHub Actions), **eliminando horas de trabajo manual** y reduciendo drásticamente los errores en liberación."
+            "Definí la **arquitectura técnica** y la estrategia tecnológica, evaluando APIs de terceros y guiando al equipo en la adopción de nuevas herramientas para varios proyectos en paralelo.",
+            "Mejoré la calidad del código y facilité la entrada de nuevos desarrolladores implementando **revisiones de código** (Code Reviews), análisis estático (ESLint) y flujos de trabajo ágiles.",
+            "Administré la **infraestructura de producción** en servidores Linux (Firewalls, Datadog) y automaticé los despliegues usando **GitHub Actions**, lo que eliminó el trabajo manual y redujo los errores al liberar."
           ]
         },
         {
           "position": "Full Stack Developer",
           "dates": "Sep 2017 – Jul 2022",
           "bullets": [
-            "Desarrollé y mantuve plataformas web de principio a fin, construyendo **backends robustos** con Laravel (PHP) y bases de datos relacionales (MySQL/PostgreSQL), y frontends interactivos con JavaScript y Vue.js.",
-            "**Optimicé el rendimiento general** de las aplicaciones en producción, refactorizando consultas a la base de datos y diseñando interfaces responsivas enfocadas en mejorar la experiencia del usuario final.",
-            "Aterricé los requerimientos de negocio en especificaciones técnicas claras, participando en el **ciclo de vida completo** del desarrollo para reducir el retrabajo y garantizar entregas a tiempo."
+            "Programé **aplicaciones web completas** usando Laravel y bases de datos relacionales (MySQL/PostgreSQL) para el backend, junto con interfaces dinámicas en JavaScript y Vue.js.",
+            "**Mejoré la velocidad** de las aplicaciones refactorizando consultas a la base de datos y rediseñando la interfaz para una mejor experiencia de usuario.",
+            "Traduje los requerimientos de negocio a especificaciones técnicas, acompañando el proyecto desde el inicio hasta el **despliegue** para asegurar entregas a tiempo."
           ]
         }
       ]
@@ -65,9 +67,9 @@
           "position": "CEO & Founder",
           "dates": "May 2018 – Presente",
           "bullets": [
-            "Construí y mantengo un **ecosistema de herramientas** de código abierto (incluyendo TaskFlow y utilidades para Vue/Laravel) enfocado en mejorar la experiencia del desarrollador (DX).",
-            "Gestiono el ciclo de vida de los proyectos en GitHub, definiendo el roadmap técnico, revisando Pull Requests (PRs) y **resolviendo activamente los problemas** (issues) reportados por la comunidad.",
-            "Facilité la adopción de estas herramientas redactando **documentación técnica clara** y diseñando integraciones directas que ahorran horas de configuración a otros ingenieros, impulsado por mi compromiso con el software libre y colaborativo."
+            "Creé y mantengo un **ecosistema de herramientas open-source** (incluyendo TaskFlow y utilidades para Vue/Laravel) enfocadas en agilizar el ciclo de desarrollo.",
+            "Llevo la **gestión completa en GitHub**: defino los siguientes pasos técnicos, reviso Pull Requests y resuelvo los problemas que reporta la comunidad.",
+            "Optimicé la **experiencia de integración (DX)** creando módulos listos para usar y entornos de prueba que eliminan horas de trabajo manual para otros desarrolladores."
           ]
         }
       ]
@@ -80,7 +82,7 @@
     },
     {
       "category": "Inteligencia Artificial",
-      "items": "LangChain, RAG, Prompt Engineering, Vertex AI (Gemini API), AWS Bedrock"
+      "items": "LangChain, MCP (Model Context Protocol), Prompt Engineering, Vertex AI (Gemini API), AWS Bedrock, RAG"
     },
     {
       "category": "Frontend",
@@ -96,7 +98,7 @@
     },
     {
       "category": "DevOps e Infraestructura",
-      "items": "AWS, Docker, GitHub Actions (CI/CD), Administración de Servidores Linux (Ubuntu/Debian)"
+      "items": "Docker, AWS, GitHub Actions (CI/CD), Servidores Linux (Ubuntu/Debian)"
     },
     {
       "category": "Móvil",
@@ -106,11 +108,11 @@
   "projects": [
     {
       "name": "TaskFlow",
-      "description": "Diseñé una plataforma ágil de gestión de producto (Next.js, TypeScript, MongoDB, Socket.io). Aceleré el ciclo de planificación integrando un **copiloto de Inteligencia Artificial** (Gemini/Bedrock) que traduce requerimientos en **tareas automáticas** dentro de interfaces dinámicas drag-and-drop."
+      "description": "Desarrollé una plataforma colaborativa para gestión de producto (Next.js, TypeScript, MongoDB, Socket.io). Para acelerar la planificación, le integré un **copiloto de IA** (Gemini/Bedrock) que toma requerimientos y genera **tareas automáticas** en un tablero drag-and-drop."
     },
     {
       "name": "Ajax Laravel Validator",
-      "description": "Desarrollé un paquete open-source en NPM para Vue.js (con **más de 3,000 instalaciones** anuales) que simplifica la interacción entre frontend y backend, integrando validación del lado del cliente, envío de objetos reactivos y manejo de errores de Laravel FormRequest directamente en la UI."
+      "description": "Publiqué un paquete open-source en NPM para Vue.js (con **más de 3,000 descargas** anuales) que conecta la validación del cliente con el backend, procesando los errores de Laravel FormRequest directamente en la UI."
     },
     {
       "name": "BBVA TPV",
@@ -118,7 +120,7 @@
     },
     {
       "name": "Prefectos",
-      "description": "Reemplacé el control manual de asistencia docente en el Instituto Tecnológico de Aguascalientes con una **plataforma web en tiempo real** escrita en Laravel y Vue.js y una aplicación desarrollada en Android nativo."
+      "description": "Reemplacé el control manual de asistencia docente en el Instituto Tecnológico de Aguascalientes con una **plataforma web en tiempo real** escrita en Laravel y Vue.js, vinculada a una app en **Android nativo**."
     }
   ],
   "education": [
@@ -133,6 +135,9 @@
       "degree": "Ingeniería en Tecnologías de la Información y Comunicaciones"
     }
   ],
-  "languages": "Español (nativo), Inglés (competencia profesional)",
-  "certifications": "Google Data Analytics (2023), AI Engineering – Henry (2026)"
+  "languages": "Español (Nativo), Inglés (B2)",
+  "certifications": [
+    "AI Engineering – Henry (2026)",
+    "Google Data Analytics (2023)"
+  ]
 }

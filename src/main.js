@@ -6,7 +6,7 @@ import en from './locales/en.json'
 import es from './locales/es.json'
 
 const i18n = createI18n({
-    locale: localStorage.locale ?? 'en',
+    locale: 'en',
     legacy: false,
     globalInjection: true,
     messages: {

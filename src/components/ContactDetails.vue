@@ -3,9 +3,9 @@
 		<h1 class="text-4xl font-bold text-gray-900">Gustavo Peralta</h1>
 		<p class="mt-1 text-lg text-gray-600">{{ cv.title }}</p>
 		<p class="text-sm print:hidden">
-			<a id="language-link" href="#" class="text-blue-600 underline hover:text-blue-800" @click.prevent="$emit('change-lang')">{{ cv.switchLanguage }}</a>
+			<a id="language-link" :href="cv.switchPath" class="text-blue-600 underline hover:text-blue-800" @click.prevent="$emit('change-lang', cv.switchPath)">{{ cv.switchLanguage }}</a>
 			<span class="mx-2 text-gray-400">·</span>
-			<a :href="cv.pdf.file" download class="text-blue-600 underline hover:text-blue-800">{{ cv.pdf.label }}</a>
+			<a :href="`/${cv.pdf.file}`" download class="text-blue-600 underline hover:text-blue-800">{{ cv.pdf.label }}</a>
 		</p>
 		<p class="mt-2 text-sm text-gray-700">
 			<a href="mailto:gussrw1@gmail.com">gussrw1@gmail.com</a>

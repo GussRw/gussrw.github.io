@@ -15,19 +15,30 @@ import OtherProjects from "@/components/OtherProjects.vue";
 import EducationSection from "@/components/EducationSection.vue";
 import en from "@/locales/en.json";
 import es from "@/locales/es.json";
-import {computed, ref} from "vue";
+import {computed, onMounted, onUnmounted, ref, watchEffect} from "vue";
 import {useI18n} from "vue3-i18n";
 
-// ?lang=es|en wins over the saved choice, so links and the PDF generator can pick a language
-const urlLang = new URLSearchParams(window.location.search).get('lang');
-const locale = ref(['en', 'es'].includes(urlLang) ? urlLang : (localStorage.locale ?? 'en'));
+// The path picks the language: /es is Spanish, / and /en are English
+const langFromPath = () => (window.location.pathname.replace(/\/+$/, '').endsWith('/es') ? 'es' : 'en');
+
+const locale = ref(langFromPath());
 const i18n = useI18n();
 const cv = computed(() => (locale.value === 'es' ? es : en));
 
-const changeLang = () => {
-    locale.value = localStorage.locale = locale.value === 'es' ? 'en' : 'es';
+watchEffect(() => {
+    document.documentElement.lang = locale.value;
     i18n.setLocale(locale.value);
+});
+
+const changeLang = path => {
+    window.history.pushState({}, '', path);
+    locale.value = langFromPath();
 }
+
+// Keep the language in sync with the browser's back/forward buttons
+const onPopState = () => (locale.value = langFromPath());
+onMounted(() => window.addEventListener('popstate', onPopState));
+onUnmounted(() => window.removeEventListener('popstate', onPopState));
 </script>
 <style>
 body {
