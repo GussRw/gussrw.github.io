@@ -150,6 +150,10 @@
   ],
   "projects": [
     {
+      "name": "Coyfi",
+      "description": "Built an electronic invoicing (CFDI) platform, currently in production (with management, administration, client portal, and website modules). To isolate each client's data, implemented a **multi-tenant architecture** with distributed databases, and integrated **multiple PACs** (authorized certification providers) to keep invoice stamping always available."
+    },
+    {
       "name": "TaskFlow",
       "description": "Built a collaborative product management platform (Next.js, TypeScript, MongoDB, Socket.io). To speed up planning, integrated an **AI copilot** (Gemini/Bedrock) that takes requirements and generates **automated tasks** on a drag-and-drop board."
     },

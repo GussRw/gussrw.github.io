@@ -150,6 +150,10 @@
   ],
   "projects": [
     {
+      "name": "Coyfi",
+      "description": "Desarrollé una plataforma de facturación electrónica, actualmente en producción (con módulos de gestión, administración, portal de clientes y sitio web). Para aislar la información de cada cliente, implementé una **arquitectura multi-tenant** con bases de datos distribuidas, e integré soporte para **múltiples PAC** para mantener siempre la disponibilidad en el timbrado."
+    },
+    {
       "name": "TaskFlow",
       "description": "Desarrollé una plataforma colaborativa para gestión de producto (Next.js, TypeScript, MongoDB, Socket.io). Para acelerar la planificación, le integré un **copiloto de IA** (Gemini/Bedrock) que toma requerimientos y genera **tareas automáticas** en un tablero drag-and-drop."
     },
